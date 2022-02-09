@@ -1,0 +1,178 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "Request For Model/License",
+            "horizontalAlignment": "Center",
+            "color": "Accent",
+            "id": "RequestforModel/License",
+            "spacing": "None",
+            "wrap": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Requester Name* : ",
+                    "id": "RequesterNameLabel",
+                    "weight": "Bolder",
+                    "wrap": true,
+                    "spacing": "None"
+                },
+                {
+                    "type": "Input.Text",
+                    "placeholder": "Enter Requester Name",
+                    "id": "RequesterName",
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Requester Email* : ",
+                    "id": "RequesterEmailLabel",
+                    "weight": "Bolder",
+                    "wrap": true,
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Input.Text",
+                    "placeholder": "Enter Requester Email",
+                    "id": "RequesterEmail",
+                    "style": "Email",
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Customer Name* : ",
+                    "id": "CustomerNameLabel",
+                    "weight": "Bolder",
+                    "wrap": true,
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Input.Text",
+                    "placeholder": "Enter Customer Name",
+                    "id": "CustomerName",
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Select Request Type : ",
+                    "id": "RequestTypeText",
+                    "horizontalAlignment": "Left",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "size": "Medium",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "placeholder": "--Select--",
+                    "choices": [
+                        {
+                            "title": "Both",
+                            "value": "Both"
+                        },
+                        {
+                            "title": "1",
+                            "value": "1"
+                        },
+                        {
+                            "title": "2",
+                            "value": "2"
+                        }
+                    ],
+                    "id": "RequestType",
+                    "value": "Both",
+                    "spacing": "None"
+                }
+            ],
+            "style": "default",
+            "bleed": true,
+            "id": "Requesterdata"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Select Asset* :",
+                    "id": "Assetheader",
+                    "horizontalAlignment": "Left",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "size": "Medium",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "placeholder": "",
+                    "choices": [
+                        {
+                            "title": "chekcbox1",
+                            "value": "chekcbox1"
+                        },
+                        {
+                            "title": "chekcbox2",
+                            "value": "chekcbox2"
+                        },
+                        {
+                            "title": "chekcbox3",
+                            "value": "chekcbox3"
+                        },
+                        {
+                            "title": "chekcbox4",
+                            "value": "chekcbox4"
+                        },
+                        {
+                            "title": "chekcbox5",
+                            "value": "chekcbox5"
+                        }
+                    ],
+                    "isMultiSelect": true,
+                    "id": "AssetsList",
+                    "wrap": true,
+                    "spacing": "None"
+                }
+            ],
+            "id": "Assetdata",
+            "style": "default",
+            "bleed": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ActionSet",
+                    "actions": [
+                        {
+                            "type": "Action.Submit",
+                            "title": "Cancel",
+                            "style": "positive",
+                            "data": {
+                                "Cancel": 1
+                            }
+                        },
+                        {
+                            "type": "Action.Submit",
+                            "title": "Submit",
+                            "style": "positive",
+                            "data": {
+                                "Cancel": 0
+                            }
+                        }
+                    ],
+                    "id": "Action1",
+                    "spacing": "Small",
+                    "separator": true
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "lang": "Eng"
+}

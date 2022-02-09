@@ -1,0 +1,28 @@
+{
+    "teamsApp": {
+        "tenantId": "6b60268f-bcbf-4322-bcce-b869eb2e83ee",
+        "teamsAppId": "070f9a5b-cdec-45de-b23f-a715ff863609"
+    },
+    "auth": {
+        "clientId": "82b2a809-cec5-4b92-a3ca-bb22b4b9a595",
+        "clientSecret": "crypto_3f11164da7cbbc369de2f85c1a8f5b1cd6dfda9f1fdc79035723881eb2d3caa32d003531df6bd536fb1b3ccc783c848383a567f7d55b9de51a76d9fb7b0ffaabbab1a4e97ddef7b03c255f9fc807f7f0ce4665825a8e30ff015bf6354dc4ef956d2325629ccd95cbce8471d5b9608e8337b3147742441bd391995bd6c0a2b63f7f753cff80",
+        "objectId": "3c321ee3-1750-4e51-add7-d47e0c7c9b92",
+        "oauth2PermissionScopeId": "2f4e5f23-0b84-4698-9e12-ec96aa74b1e9",
+        "oauthAuthority": "https://login.microsoftonline.com/6b60268f-bcbf-4322-bcce-b869eb2e83ee",
+        "oauthHost": "https://login.microsoftonline.com",
+        "applicationIdUris": "api://botid-9fff1f09-848b-40d4-80c5-4dbfe531247b",
+        "simpleAuthFilePath": "",
+        "SimpleAuthEnvironmentVariableParams": "",
+        "AuthServiceEndpoint": "http://localhost:55000",
+        "tenantId": "6b60268f-bcbf-4322-bcce-b869eb2e83ee"
+    },
+    "bot": {
+        "skipNgrok": false,
+        "botId": "9fff1f09-848b-40d4-80c5-4dbfe531247b",
+        "botPassword": "crypto_6d488aa159aec568ec70dff6962b9f6d9031d3bcca31b3ffa787acad55d8bfa2f7873c05409abd8e60dcf89623d30cd67e159c2c1bf32fbe067bebb67773406bcbbf9ae7e9ac707ab06b3704b06f0fe934fe7cab6c643206744866cd117e8fc272300d898ff292e7176ceebe6ac10a7e6a064b925ffb7805b6a9c8281a8525400971222ca8",
+        "botAadObjectId": "e48d6daf-c6b8-42c7-bebd-25feabe30b3f",
+        "botRedirectUri": "",
+        "botDomain": "7981-122-254-87-222.ngrok.io",
+        "botEndpoint": "https://7981-122-254-87-222.ngrok.io"
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+      {
+        "type": "TextBlock",
+        "size": "Large",
+        "weight": "Bolder",
+        "text": "Hi there, It's time for your Daily Standup"
+      },
+      {
+        "type": "TextBlock",
+        "text": "We have three daily standup questions that you have to answers one by one ",
+        "wrap": true
+      },
+      {
+        "type": "Container",
+        "items":[
+          {
+            "type": "TextBlock",
+            "text": "Q1: What did you complete yesterday ? ",
+            "color":"attention",
+            "size": "Medium",
+            "wrap": true
+          },
+          {
+            "type": "Input.Text",
+            "isMultiline": true,
+            "style": "text",
+            "id": "Answer1"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Q2: What do you commit today ?",
+            "color":"attention",
+            "size": "Medium",
+            "wrap": true
+          },
+          {
+            "type": "Input.Text",
+            "isMultiline": true,
+            "style": "url",
+            "id": "Answer2"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Q3: Name of Blocker you Use(if Any)",
+            "color":"attention",
+            "size": "Medium",
+            "wrap": true,
+            "id":"hasBlockerToggle"
+          },
+          
+          {
+            "type": "Input.Text",
+            "id":"hasBlockerToggle"
+          }
+        ],
+        "style": "default",
+        "bleed": true,
+        "id": "Requesterdata"
+      },
+        
+      
+      {
+        "type": "Container",
+        "items": [
+            {
+                "type": "ActionSet",
+                "actions": [
+                    {
+                        "type": "Action.Submit",
+                        "title": "Cancel",
+                        "style": "positive",
+                        "data": {
+                            "Cancel": 1
+                        }
+                    },
+                    {
+                        "type": "Action.Submit",
+                        "title": "Submit",
+                        "style": "positive",
+                        "data": {
+                            "Cancel": 0
+                        }
+                    }
+                ],
+                "id": "Action1",
+                "spacing": "Small",
+                "separator": true
+            }
+        ]
+    }
+    ],
+    
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4"
+  }
+  

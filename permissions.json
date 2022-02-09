@@ -1,0 +1,15 @@
+[
+    {
+        "resource": "Microsoft Graph",
+        "delegated": [
+            "User.Read"
+            
+        ],
+        "devicePermissions": [ 
+            "media"
+         ],
+        "application": [
+
+        ]
+    }
+]
